@@ -9,8 +9,7 @@ services:
       - "8080:8080"
     container_name: viki-springboot
   nginx:
-    build:
-      context: './nginx/'
+    image: nginx
     depends_on:
       - springboot
     networks:
