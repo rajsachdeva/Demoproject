@@ -1,8 +1,8 @@
 version: "3.2"
 services:
   springboot:
-    build: 
-      context: './springboot/'
+    build:
+      context: '.'
     networks:
       - springnet
     ports:
@@ -17,7 +17,8 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/:/etc/nginx/conf.d/
     container_name: viki-nginx
 networks:
   springnet:
+
