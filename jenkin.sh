@@ -4,7 +4,7 @@
 # Date 	      : 21/Aug/2021
 
 # Update and Upgrade the ubuntu VM
-sudo apt-get update 
+sudo apt-get update -y
 sudo apt-get upgrade -y
 
 # Install JDK
@@ -33,7 +33,7 @@ sudo ufw allow 8080
 
 #Active the firewall,if it is inactive
 sudo ufw allow OpenSSH
-sudo ufw enable
+sudo ufw enable -y
 
 #Check the firewall status
 sudo ufw status
