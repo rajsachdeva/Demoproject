@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Description : This scripts will install JDK,Jenkin and get the pwd for Jenkin
-# Date 	      : 21/Aug/2021
+# Date        : 21/Aug/2021
 
 # Update and Upgrade the ubuntu VM
-sudo apt-get update -y
+sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install JDK
