@@ -4,7 +4,8 @@
 # Date 	      : 21/Aug/2021
 
 # Update and Upgrade the ubuntu VM
-sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update 
+sudo apt-get upgrade -y
 
 # Install JDK
 sudo apt install openjdk-8-jdk
